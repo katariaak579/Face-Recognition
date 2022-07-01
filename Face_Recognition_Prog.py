@@ -30,7 +30,7 @@ print(className)
 knownEncodes=findEncode(images)
 # print(len(knownEncodes))
 
-cap = cv2.VideoCapture("Images/RPReplay_Final1656631051.mov")
+cap = cv2.VideoCapture(0)
 
 while True:
     ret,frame=cap.read()
